@@ -1,12 +1,6 @@
 var TAB = "\t";
 var CURRENTLIST="none";
 
-function appending(element){
-    var listgroup = document.getElementById("albumlist");
-    //Append the element in page (in span).  
-    listgroup.appendChild(element);
-};
-
 function CreateListButton(songtitle,ytSrc){
     var element = document.createElement("li");
     //Assign different attributes to the element. 
@@ -58,6 +52,8 @@ document.getElementById("Tourist-leMC").onclick = function() {
             CreateListButton('Deze Nacht' + '\t'  + '3:41',"changeVideo('LTHhumEFUpg');");
             CURRENTLIST="Tourist-leMC";
         };
+        document.getElementById("biografie").innerHTML = "Tourist LeMC (vaak kortweg Tourist genoemd), pseudoniem van Johannes Faes (Schoten, 1984), is een Belgische hiphop- en kleinkunstartiest.Zijn grootste muzikale invloed is de Franse hiphopscene van eind jaren negentig. Zijn muziek wordt gekenmerkt door invloeden uit de reggae, maar vooral ook uit de kleinkunst en folk.";
+        document.getElementById("buyAlbum").setAttribute('href',"https://itunes.apple.com/be/album/en-route/id967234387?l=nl");        
 };
 
 document.getElementById("EdSheeran").onclick = function() {
@@ -105,6 +101,9 @@ document.getElementById("EdSheeran").onclick = function() {
         CreateListButton('Save Myself' + '\t'  + '4:07',"changeVideo('qXM0JdAwabU');");
         CURRENTLIST="EdSheeran";
     };
+    document.getElementById("biografie").innerHTML ="Edward Christopher Sheeran (Halifax, 17 februari 1991) is een Brits singer-songwriter. Hij tekende in 2011 een contract bij Asylum/Atlantic Records. Sheeran brak door in juni 2011 met zijn debuutsingle The A Team en scoorde daarna ook grote hits met onder andere Thinking out loud (2014) en Shape of you (2017).";
+    document.getElementById("buyAlbum").setAttribute('href',"https://itunes.apple.com/nl/album/deluxe/id1193701079");
+    
 };
 
 document.getElementById("Bazart").onclick = function() {
@@ -140,6 +139,8 @@ document.getElementById("Bazart").onclick = function() {
         CreateListButton('Zonder' + '\t'  + '4:03',"changeVideo('WrTAiIgJbks');");
         CURRENTLIST="Bazart";
     };
+    document.getElementById("biografie").innerHTML ="Bazart is een indie-popgroep uit België. De band maakt Nederlandstalige muziek. Bazart werd opgericht door zanger Mathieu Terryn en zanger/gitarist Simon Nuytten.Naar eigen zeggen probeert de band kleinkunst in de Vlaamse betekenis populair te maken onder het Belgische publiek.Bazart werd genomineerd voor zeven MIA’s in 2016 en verzilverde er vijf: “Hit van het jaar”, “Beste Nederlandstalig”, “Beste doorbraak”, “Beste pop” en “Beste groep”. Enkel in de categorieën “Beste album” en “Beste live-act” grepen ze naast de hoofdprijs.";
+    document.getElementById("buyAlbum").setAttribute('href',"https://itunes.apple.com/be/album/echo/id1153215092?l=nl");
 };
 
 $(function(){

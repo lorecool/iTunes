@@ -23,18 +23,19 @@ function CreateListButton(songtitle,ytSrc){
 
 document.getElementById("Tourist-leMC").onclick = function() {
         if(CURRENTLIST=="none"){
-        CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('shpmMmeE7Vk');");
-        CreateListButton('Bilan' + '\t'  + '3:40');
-        CreateListButton('Verhalen van de wijk' + '\t'  + '4:37');
-        CreateListButton('De Troubadours' + '\t'  + '4:03');
-        CreateListButton('Miljonaire' + '\t'  + '3:43');
-        CreateListButton('Adieu' + '\t'  + '3:08');
-        CreateListButton('Koning Liefde' + '\t'  + '3:22');
-        CreateListButton('Tot Hiertoe Alles Goe' + '\t'  + '3:21');
-        CreateListButton('Meester Kunstenaar' + '\t'  + '3:35');
-        CreateListButton('Chanter' + '\t'  + '3:58');
-        CreateListButton('Horizon' + '\t'  + '3:33');
-        CreateListButton('Deze Nacht' + '\t'  + '3:41');
+            changeVideo('C4icVAL7OM4');
+            CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('C4icVAL7OM4');");
+            CreateListButton('Bilan' + '\t'  + '3:40',"changeVideo('a1rFcTyAwoE');");
+            CreateListButton('Verhalen van de wijk' + '\t'  + '4:37',"changeVideo('RDzcGEVvGL9zo');");
+            CreateListButton('De Troubadours' + '\t'  + '4:03',"changeVideo('az8UME0yM1M');");
+            CreateListButton('Miljonaire' + '\t'  + '3:43',"changeVideo('WxLS6dY3V0Q');");
+            CreateListButton('Adieu' + '\t'  + '3:08',"changeVideo('P3JTqr2oZio');");
+            CreateListButton('Koning Liefde' + '\t'  + '3:22',"changeVideo('XuyN4XzqSIA');");
+            CreateListButton('Tot Hiertoe Alles Goe' + '\t'  + '3:21',"changeVideo('undefined');");
+            CreateListButton('Meester Kunstenaar' + '\t'  + '3:35',"changeVideo('Lz1BDiS_1I0');");
+            CreateListButton('Chanter' + '\t'  + '3:58',"changeVideo('undefined');");
+            CreateListButton('Horizon' + '\t'  + '3:33',"changeVideo('shpmMmeE7Vk');");
+            CreateListButton('Deze Nacht' + '\t'  + '3:41',"changeVideo('LTHhumEFUpg');");
         CURRENTLIST="Tourist-leMC";
         }
         else if(CURRENTLIST!="Tourist-leMC"){
@@ -42,40 +43,42 @@ document.getElementById("Tourist-leMC").onclick = function() {
             while (myNode.firstChild) {
                 myNode.removeChild(myNode.firstChild);
             }
-            CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('shpmMmeE7Vk');");
-            CreateListButton('Bilan' + '\t'  + '3:40');
-            CreateListButton('Verhalen van de wijk' + '\t'  + '4:37');
-            CreateListButton('De Troubadours' + '\t'  + '4:03');
-            CreateListButton('Miljonaire' + '\t'  + '3:43');
-            CreateListButton('Adieu' + '\t'  + '3:08');
-            CreateListButton('Koning Liefde' + '\t'  + '3:22');
-            CreateListButton('Tot Hiertoe Alles Goe' + '\t'  + '3:21');
-            CreateListButton('Meester Kunstenaar' + '\t'  + '3:35');
-            CreateListButton('Chanter' + '\t'  + '3:58');
-            CreateListButton('Horizon' + '\t'  + '3:33');
-            CreateListButton('Deze Nacht' + '\t'  + '3:41');
+            changeVideo('C4icVAL7OM4');
+            CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('C4icVAL7OM4');");
+            CreateListButton('Bilan' + '\t'  + '3:40',"changeVideo('a1rFcTyAwoE');");
+            CreateListButton('Verhalen van de wijk' + '\t'  + '4:37',"changeVideo('RDzcGEVvGL9zo');");
+            CreateListButton('De Troubadours' + '\t'  + '4:03',"changeVideo('az8UME0yM1M');");
+            CreateListButton('Miljonaire' + '\t'  + '3:43',"changeVideo('WxLS6dY3V0Q');");
+            CreateListButton('Adieu' + '\t'  + '3:08',"changeVideo('P3JTqr2oZio');");
+            CreateListButton('Koning Liefde' + '\t'  + '3:22',"changeVideo('XuyN4XzqSIA');");
+            CreateListButton('Tot Hiertoe Alles Goe' + '\t'  + '3:21',"changeVideo('undefined');");
+            CreateListButton('Meester Kunstenaar' + '\t'  + '3:35',"changeVideo('Lz1BDiS_1I0');");
+            CreateListButton('Chanter' + '\t'  + '3:58',"changeVideo('undefined');");
+            CreateListButton('Horizon' + '\t'  + '3:33',"changeVideo('shpmMmeE7Vk');");
+            CreateListButton('Deze Nacht' + '\t'  + '3:41',"changeVideo('LTHhumEFUpg');");
             CURRENTLIST="Tourist-leMC";
         };
 };
 
 document.getElementById("EdSheeran").onclick = function() {
     if(CURRENTLIST=="none"){
-    CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('shpmMmeE7Vk');");
-    CreateListButton('Castle on the hill' + '\t'  + '4:21');
-    CreateListButton('Dive' + '\t'  + '3:58');
-    CreateListButton('Shape of You' + '\t'  + '3:54');
-    CreateListButton('Perfect' + '\t'  + '4:23');
-    CreateListButton('Galway Girl' + '\t'  + '2:51');
-    CreateListButton('Happier' + '\t'  + '3:28');
-    CreateListButton('New Man' + '\t'  + '3:09');
-    CreateListButton('Hearts Don`t Break Around Here' + '\t'  + '4:08');
-    CreateListButton('What Do I Know?' + '\t'  + '3:57');
-    CreateListButton('How Would You Feel(Paean)' + '\t'  + '4:41');
-    CreateListButton('Supermarket Flowers' + '\t'  + '3:41');
-    CreateListButton('Barcelona' + '\t'  + '3:11');
-    CreateListButton('Bibia Be Ye Ya' + '\t'  + '2:57');
-    CreateListButton('Nancy Mulligan' + '\t'  + '3:00');
-    CreateListButton('Save Myself' + '\t'  + '4:07');
+    changeVideo('OjGrcJ4lZCc');
+    CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('OjGrcJ4lZCc');");
+    CreateListButton('Castle on the hill' + '\t'  + '4:21',"changeVideo('K0ibBPhiaG0');");
+    CreateListButton('Dive' + '\t'  + '3:58',"changeVideo('Wv2rLZmbPMA');");
+    CreateListButton('Shape of You' + '\t'  + '3:54',"changeVideo('JGwWNGJdvx8');");
+    CreateListButton('Perfect' + '\t'  + '4:23',"changeVideo('iKzRIweSBLA');");
+    CreateListButton('Galway Girl' + '\t'  + '2:51',"changeVideo('87gWaABqGYs');");
+    CreateListButton('Happier' + '\t'  + '3:28',"changeVideo('8TpcBDJZsJA');");
+    CreateListButton('New Man' + '\t'  + '3:09',"changeVideo('EwzD8U4u76k');");
+    CreateListButton('Hearts Don`t Break Around Here' + '\t'  + '4:08',"changeVideo('20pAJPNaAyw');");
+    CreateListButton('What Do I Know?' + '\t'  + '3:57',"changeVideo('6B9J3lEyffA');");
+    CreateListButton('How Would You Feel(Paean)' + '\t'  + '4:41',"changeVideo('ZZMZiBCRX4c');");
+    CreateListButton('Supermarket Flowers' + '\t'  + '3:41',"changeVideo('bIB8EWqCPrQ');");
+    CreateListButton('Barcelona' + '\t'  + '3:11',"changeVideo('OVO4LhrOFiY');");
+    CreateListButton('Bibia Be Ye Ye' + '\t'  + '2:57',"changeVideo('7t3Re2VIbHE');");
+    CreateListButton('Nancy Mulligan' + '\t'  + '3:00',"changeVideo('VFlZXlfda6Y');");
+    CreateListButton('Save Myself' + '\t'  + '4:07',"changeVideo('qXM0JdAwabU');");
     CURRENTLIST="EdSheeran";
     }
     else if(CURRENTLIST!="EdSheeran"){
@@ -83,38 +86,40 @@ document.getElementById("EdSheeran").onclick = function() {
         while (myNode.firstChild) {
             myNode.removeChild(myNode.firstChild);
         }
-        CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('shpmMmeE7Vk');");
-        CreateListButton('Castle on the hill' + '\t'  + '4:21');
-        CreateListButton('Dive' + '\t'  + '3:58');
-        CreateListButton('Shape of You' + '\t'  + '3:54');
-        CreateListButton('Perfect' + '\t'  + '4:23');
-        CreateListButton('Galway Girl' + '\t'  + '2:51');
-        CreateListButton('Happier' + '\t'  + '3:28');
-        CreateListButton('New Man' + '\t'  + '3:09');
-        CreateListButton('Hearts Don`t Break Around Here' + '\t'  + '4:08');
-        CreateListButton('What Do I Know?' + '\t'  + '3:57');
-        CreateListButton('How Would You Feel(Paean)' + '\t'  + '4:41');
-        CreateListButton('Supermarket Flowers' + '\t'  + '3:41');
-        CreateListButton('Barcelona' + '\t'  + '3:11');
-        CreateListButton('Bibia Be Ye Ya' + '\t'  + '2:57');
-        CreateListButton('Nancy Mulligan' + '\t'  + '3:00');
-        CreateListButton('Save Myself' + '\t'  + '4:07');
+        changeVideo('OjGrcJ4lZCc');        
+        CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('OjGrcJ4lZCc');");
+        CreateListButton('Castle on the hill' + '\t'  + '4:21',"changeVideo('K0ibBPhiaG0');");
+        CreateListButton('Dive' + '\t'  + '3:58',"changeVideo('Wv2rLZmbPMA');");
+        CreateListButton('Shape of You' + '\t'  + '3:54',"changeVideo('JGwWNGJdvx8');");
+        CreateListButton('Perfect' + '\t'  + '4:23',"changeVideo('iKzRIweSBLA');");
+        CreateListButton('Galway Girl' + '\t'  + '2:51',"changeVideo('87gWaABqGYs');");
+        CreateListButton('Happier' + '\t'  + '3:28',"changeVideo('8TpcBDJZsJA');");
+        CreateListButton('New Man' + '\t'  + '3:09',"changeVideo('EwzD8U4u76k');");
+        CreateListButton('Hearts Don`t Break Around Here' + '\t'  + '4:08',"changeVideo('20pAJPNaAyw');");
+        CreateListButton('What Do I Know?' + '\t'  + '3:57',"changeVideo('6B9J3lEyffA');");
+        CreateListButton('How Would You Feel(Paean)' + '\t'  + '4:41',"changeVideo('ZZMZiBCRX4c');");
+        CreateListButton('Supermarket Flowers' + '\t'  + '3:41',"changeVideo('bIB8EWqCPrQ');");
+        CreateListButton('Barcelona' + '\t'  + '3:11',"changeVideo('OVO4LhrOFiY');");
+        CreateListButton('Bibia Be Ye Ye' + '\t'  + '2:57',"changeVideo('7t3Re2VIbHE');");
+        CreateListButton('Nancy Mulligan' + '\t'  + '3:00',"changeVideo('VFlZXlfda6Y');");
+        CreateListButton('Save Myself' + '\t'  + '4:07',"changeVideo('qXM0JdAwabU');");
         CURRENTLIST="EdSheeran";
     };
 };
 
 document.getElementById("Bazart").onclick = function() {
     if(CURRENTLIST=="none"){
-    CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('shpmMmeE7Vk');");
-    CreateListButton('Chaos' + '\t'  + '3:19');
-    CreateListButton('Tunnels' + '\t'  + '3:11');
-    CreateListButton('Lux' + '\t'  + '3:39');
-    CreateListButton('Nacht' + '\t'  + '3:17');
-    CreateListButton('Goud' + '\t'  + '3:02');
-    CreateListButton('Kloon' + '\t'  + '3:03');
-    CreateListButton('Open' + '\t'  + '3:47');
-    CreateListButton('Voodoo' + '\t'  + '3:30');
-    CreateListButton('Zonder' + '\t'  + '4:03');
+    changeVideo('42WoxJbRfVk');
+    CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('42WoxJbRfVk');");
+    CreateListButton('Chaos' + '\t'  + '3:19',"changeVideo('HdI_R7vbL-o');");
+    CreateListButton('Tunnels' + '\t'  + '3:11',"changeVideo('L5-31_F3O1A');");
+    CreateListButton('Lux' + '\t'  + '3:39',"changeVideo('RVFE36F-3iU');");
+    CreateListButton('Nacht' + '\t'  + '3:17',"changeVideo('MBzieRDfaJA');");
+    CreateListButton('Goud' + '\t'  + '3:02',"changeVideo('pew1rERKHMo');");
+    CreateListButton('Kloon' + '\t'  + '3:03',"changeVideo('WCtZXhpihNM');");
+    CreateListButton('Open' + '\t'  + '3:47',"changeVideo('m-2xT5ZnKiw');");
+    CreateListButton('Voodoo' + '\t'  + '3:30',"changeVideo('VR_dsj6Iyrg');");
+    CreateListButton('Zonder' + '\t'  + '4:03',"changeVideo('WrTAiIgJbks');");
     CURRENTLIST="Bazart";
     }
     else if(CURRENTLIST!="Bazart"){
@@ -122,16 +127,17 @@ document.getElementById("Bazart").onclick = function() {
         while (myNode.firstChild) {
             myNode.removeChild(myNode.firstChild);
         }
-        CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('shpmMmeE7Vk');");
-        CreateListButton('Chaos' + '\t'  + '3:19');
-        CreateListButton('Tunnels' + '\t'  + '3:11');
-        CreateListButton('Lux' + '\t'  + '3:39');
-        CreateListButton('Nacht' + '\t'  + '3:17');
-        CreateListButton('Goud' + '\t'  + '3:02');
-        CreateListButton('Kloon' + '\t'  + '3:03');
-        CreateListButton('Open' + '\t'  + '3:47');
-        CreateListButton('Voodoo' + '\t'  + '3:30');
-        CreateListButton('Zonder' + '\t'  + '4:03');
+        changeVideo('42WoxJbRfVk');
+        CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('42WoxJbRfVk');");
+        CreateListButton('Chaos' + '\t'  + '3:19',"changeVideo('HdI_R7vbL-o');");
+        CreateListButton('Tunnels' + '\t'  + '3:11',"changeVideo('L5-31_F3O1A');");
+        CreateListButton('Lux' + '\t'  + '3:39',"changeVideo('RVFE36F-3iU');");
+        CreateListButton('Nacht' + '\t'  + '3:17',"changeVideo('MBzieRDfaJA');");
+        CreateListButton('Goud' + '\t'  + '3:02',"changeVideo('pew1rERKHMo');");
+        CreateListButton('Kloon' + '\t'  + '3:03',"changeVideo('WCtZXhpihNM');");
+        CreateListButton('Open' + '\t'  + '3:47',"changeVideo('m-2xT5ZnKiw');");
+        CreateListButton('Voodoo' + '\t'  + '3:30',"changeVideo('VR_dsj6Iyrg');");
+        CreateListButton('Zonder' + '\t'  + '4:03',"changeVideo('WrTAiIgJbks');");
         CURRENTLIST="Bazart";
     };
 };

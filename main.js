@@ -2,11 +2,11 @@ var TAB = "\t";
 var CURRENTLIST="none";
 
 function CreateListButton(songtitle,ytSrc){
-    var element = document.createElement("li");
+    var element = document.createElement("button");
     //Assign different attributes to the element. 
-    element.setAttribute('class','list-group-item btn btn-default playSong');
-    element.setAttribute('id','playSong');
+    element.setAttribute('class','btn btn-primary list-group-item  playSong');
     element.setAttribute('type','button');
+    element.setAttribute('aria-pressed','false');
     element.setAttribute('onclick',ytSrc);
     element.appendChild(document.createTextNode(songtitle));
     // 2. Append somewhere

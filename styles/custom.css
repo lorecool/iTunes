@@ -35,16 +35,43 @@
     url("styles/fonts/cliche/hinted-Cliche-Regular.ttf") format("truetype"),
     url("styles/fonts/cliche/hinted-Cliche-Regular.svg#filename") format("svg");
 }
+
+@font-face {
+    font-family: "hinted-EngeHolzschrift-Shadow";
+    src: url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.eot");
+    src: 
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff") format("woff"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff2") format("woff2"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.ttf") format("truetype"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "hinted-EngeHolzschrift";
+    src: url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.eot");
+    src: 
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff") format("woff"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff2") format("woff2"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.ttf") format("truetype"),
+    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.svg#filename") format("svg");
+}
+
 body{
     font-family: 'ChanticleerRomanNF', serif;
     font-weight:normal;
 }
 
 h1,h2,h3,h4,h5 {
-    font-family: 'Cliche', sans-serif;
+    font-family: 'Cliche','Enge Holzschrift', sans-serif;
     font-weight:normal;
-    }
 
+    }
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
 /* ==============================================
    GLOBAL STYLES
    ============================================== */

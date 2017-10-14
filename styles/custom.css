@@ -2,6 +2,48 @@
    COLORS
    ============================================== */
 
+/* ==============================================
+   FONTS
+   ============================================== */
+
+@font-face {
+    font-family: "ChanticleerRomanNF Bold";
+    src: url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.eot");
+    src: 
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff") format("woff"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff2") format("woff2"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.ttf") format("truetype"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "ChanticleerRomanNF";
+    src: url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.eot");
+    src: 
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff") format("woff"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff2") format("woff2"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.ttf") format("truetype"),
+    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.svg#filename") format("svg");
+}
+
+@font-face {
+    font-family: "Cliche";
+    src: url("styles/fonts/cliche/hinted-Cliche-Regular.eot");
+    src: 
+    url("styles/fonts/cliche/hinted-Cliche-Regular.woff") format("woff"),
+    url("styles/fonts/cliche/hinted-Cliche-Regular.woff2") format("woff2"),
+    url("styles/fonts/cliche/hinted-Cliche-Regular.ttf") format("truetype"),
+    url("styles/fonts/cliche/hinted-Cliche-Regular.svg#filename") format("svg");
+}
+body{
+    font-family: 'ChanticleerRomanNF', serif;
+    font-weight:normal;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Cliche', sans-serif;
+    font-weight:normal;
+    }
 
 /* ==============================================
    GLOBAL STYLES

@@ -115,7 +115,6 @@ bootstrap components
 
 .carousel-caption button:focus,.carousel-caption button:hover {
     background-color: rgb(29, 135, 156);
-    border:rgb(29, 135, 156);
 }
     
 .carousel .btn-primary, #buyPlaylist{

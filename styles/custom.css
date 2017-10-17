@@ -47,10 +47,10 @@
     font-family: 'Enge Holzschrift';
     src: url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.eot');
     src: 
-    url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff') format('woff'),
-    url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff2') format('woff2'),
-    url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.ttf') format('truetype'),
-    url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.svg#filename') format('svg');
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff') format('woff'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff2') format('woff2'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.ttf') format('truetype'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.svg#filename') format('svg');
 }
 
 body{

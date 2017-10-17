@@ -4,48 +4,48 @@
    ============================================== */
 
 @font-face {
-    font-family: "ChanticleerRomanNF Bold";
-    src: url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.eot");
+    font-family: 'ChanticleerRomanNF Bold';
+    src: url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.eot');
     src: 
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff") format("woff"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff2") format("woff2"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.ttf") format("truetype"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.svg#filename") format("svg");
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff') format('woff'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.woff2') format('woff2'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.ttf') format('truetype'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF-Bold.svg#filename') format('svg');
 }
 
 @font-face {
-    font-family: "ChanticleerRomanNF";
-    src: url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.eot");
+    font-family: 'ChanticleerRomanNF';
+    src: url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.eot');
     src: 
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff") format("woff"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff2") format("woff2"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.ttf") format("truetype"),
-    url("styles/fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.svg#filename") format("svg");
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff') format('woff'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.woff2') format('woff2'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.ttf') format('truetype'),
+    url('fonts/chanticleerRomanNF/hinted-ChanticleerRomanNF.svg#filename') format('svg');
 }
 
 @font-face {
-    font-family: "Cliche";
-    src: url("styles/fonts/cliche/hinted-Cliche-Regular.eot");
+    font-family: 'Cliche';
+    src: url('fonts/cliche/hinted-Cliche-Regular.eot');
     src: 
-    url("styles/fonts/cliche/hinted-Cliche-Regular.woff") format("woff"),
-    url("styles/fonts/cliche/hinted-Cliche-Regular.woff2") format("woff2"),
-    url("styles/fonts/cliche/hinted-Cliche-Regular.ttf") format("truetype"),
-    url("styles/fonts/cliche/hinted-Cliche-Regular.svg#filename") format("svg");
+    url('fonts/cliche/hinted-Cliche-Regular.woff') format('woff'),
+    url('fonts/cliche/hinted-Cliche-Regular.woff2') format('woff2'),
+    url('fonts/cliche/hinted-Cliche-Regular.ttf') format('truetype'),
+    url('fonts/cliche/hinted-Cliche-Regular.svg#filename') format('svg');
 }
 
 @font-face {
-    font-family: "hinted-EngeHolzschrift-Shadow";
-    src: url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.eot");
+    font-family:'Enge Holzschrift-Shadow';
+    src: url('fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.eot');
     src: 
-    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff") format("woff"),
-    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff2") format("woff2"),
-    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.ttf") format("truetype"),
-    url("styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.svg#filename") format("svg");
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff') format('woff'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.woff2') format('woff2'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.ttf') format('truetype'),
+    url('fonts/EngeHolzschrift/hinted-EngeHolzschrift-Shadow.svg#filename') format('svg');
 }
 
 @font-face {
     font-family: 'Enge Holzschrift';
-    src: url('styles/fonts/EngeHolzschrift/hinted-EngeHolzschrift.eot');
+    src: url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.eot');
     src: 
     url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff') format('woff'),
     url('fonts/EngeHolzschrift/hinted-EngeHolzschrift.woff2') format('woff2'),

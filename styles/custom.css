@@ -95,12 +95,16 @@ iframe{
     position: fixed;
     width: 100%;
     z-index: 999;
-    height:50px;
-    font-size: 2em;
+    height:30px;
     text-align: center;
-    color: #D6005B;
+
 }
 
+.header h1{
+    font-size: 2em;
+    color: #D6005B;
+    text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+}
 /* ==============================================
 bootstrap components
 ============================================== */
@@ -222,16 +226,13 @@ html {
   .footer {
     background-image: url('../images/footer.svg') ;
     background-repeat: no-repeat;
-    background-size:100%; 
+    background-size:cover; 
     position: fixed;
     z-index:999;
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 100px;
-
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
+    height: 25px;
   }
   
   
@@ -239,11 +240,7 @@ html {
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
   
-  .container {
-    width: auto;
-    max-width: 680px;
-    padding: 0 15px;
-  }
+
 
 /* ==============================================
    Social media menu
@@ -254,13 +251,14 @@ html {
   .menu-item, .menu-open-button {
     background: #D6005B;
     border-radius: 100%;
-    width: 80px;
-    height: 80px;
-    margin-left: -40px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    top: 5px;
     position: absolute;
     color: #FFFFFF;
     text-align: center;
-    line-height: 80px;
+    line-height: 40px;
     font-size: 0.5em;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -269,26 +267,9 @@ html {
     transition: transform ease-out 200ms;
     transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
   }
-  
-  .menu-open { display: none; }
-  
 
-  
-  .menu-open:checked + .menu-open-button .line-1 {
-    -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
-    transform: translate3d(0, 0, 0) rotate(45deg);
-  }
-  
-  .menu-open:checked + .menu-open-button .line-2 {
-    -webkit-transform: translate3d(0, 0, 0) scale(0.1, 1);
-    transform: translate3d(0, 0, 0) scale(0.1, 1);
-  }
-  
-  .menu-open:checked + .menu-open-button .line-3 {
-    -webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
-    transform: translate3d(0, 0, 0) rotate(-45deg);
-  }
-  
+  .menu-open { display: none; }
+
   .menu {
     margin: auto;
     position: absolute;
@@ -357,30 +338,24 @@ html {
   .menu-open:checked ~ .menu-item:nth-child(3) {
     transition-duration: 180ms;
     -webkit-transition-duration: 180ms;
-    -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
-    transform: translate3d(0.08361px, -104.99997px, 0);
+    -webkit-transform: translate3d(0, -52.5px, 0);
+    transform: translate3d(0, -52.5px, 0);
   }
   
   .menu-open:checked ~ .menu-item:nth-child(4) {
     transition-duration: 280ms;
     -webkit-transition-duration: 280ms;
-    -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
-    transform: translate3d(90.9466px, -52.47586px, 0);
+    -webkit-transform: translate3d(45px, -26px, 0);
+    transform: translate3d(45px, -26px, 0);
   }
   
   .menu-open:checked ~ .menu-item:nth-child(5) {
     transition-duration: 380ms;
     -webkit-transition-duration: 380ms;
-    -webkit-transform: translate3d(-91.03006px, -52.33095px, 0);
-    transform: translate3d(-91.03006px, -52.33095px, 0);
+    -webkit-transform: translate3d(-45px, -26px, 0);
+    transform: translate3d(-45px, -26px, 0);
   }
-  
-  .menu-open:checked ~ .menu-item:nth-child(6) {
-    transition-duration: 480ms;
-    -webkit-transition-duration: 480ms;
-    -webkit-transform: translate3d(0.08361px, 104.99997px, 0);
-    transform: translate3d(0.08361px, 104.99997px, 0);
-  }
+
   
   
   .item-1 {
@@ -467,8 +442,13 @@ html {
 @media (max-width: 575px) {
     body {
         font-size: 0.8em; /* 0.8x default size */
-        height: 640px;
+        height: 680px;
         }
+
+.header{
+    height: 30px;
+}
+    
     .btn-primary{
         font-size: 0.9em;
     }
@@ -512,6 +492,8 @@ html {
         background: url(../images/bazart_carouselM.jpg) no-repeat;
     }
 
+
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -531,6 +513,10 @@ html {
     .btn-primary.btn-primary#buyPlaylist p{
         font-size:0.8em;
         margin-top: 5px;
+    }
+    .footer {
+        /* Set the fixed height of the footer here */
+        height: 50px;
     }
 }
 
@@ -560,6 +546,39 @@ html {
         margin-left: 10px;
         margin-right:10px;
     }
+    .footer {
+        /* Set the fixed height of the footer here */
+        height: 60px;
+    }
+    .menu-item, .menu-open-button {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+        line-height: 60px;
+        top:10px;
+      }
+
+
+      .menu-open:checked ~ .menu-item:nth-child(3) {
+        transition-duration: 180ms;
+        -webkit-transition-duration: 180ms;
+        -webkit-transform: translate3d(0, -105px, 0);
+        transform: translate3d(0, -105px, 0);
+      }
+      
+      .menu-open:checked ~ .menu-item:nth-child(4) {
+        transition-duration: 280ms;
+        -webkit-transition-duration: 280ms;
+        -webkit-transform: translate3d(90px, -52px, 0);
+        transform: translate3d(90px, -52px, 0);
+      }
+      
+      .menu-open:checked ~ .menu-item:nth-child(5) {
+        transition-duration: 380ms;
+        -webkit-transition-duration: 380ms;
+        -webkit-transform: translate3d(-90px, -52px, 0);
+        transform: translate3d(-90px, -52px, 0);
+      }
 }
 
 
@@ -568,8 +587,17 @@ html {
 @media (min-width: 992px) {
     body {
         font-size: 1em; /* 1.5x default size */
-        height: 1024px;
+        height: 1090px;
     }
+    .header{
+        height: 50px;
+    }
+    .header h1{
+        font-size: 2.5em;
+        color: #D6005B;
+        text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+    }
+
     .btn-primary{
         font-size: 1em;
     }
@@ -580,6 +608,40 @@ html {
         font-size:1.2em;
         margin-top: 10px;
     }
+    .footer {
+
+        /* Set the fixed height of the footer here */
+        height: 110px;
+    
+      }
+      .menu-item, .menu-open-button {
+        width: 80px;
+        height: 80px;
+        margin-left: -40px;
+        line-height: 80px;
+        top:0;
+      }
+
+      .menu-open:checked ~ .menu-item:nth-child(3) {
+        transition-duration: 180ms;
+        -webkit-transition-duration: 180ms;
+        -webkit-transform: translate3d(0, -105px, 0);
+        transform: translate3d(0, -105px, 0);
+      }
+      
+      .menu-open:checked ~ .menu-item:nth-child(4) {
+        transition-duration: 280ms;
+        -webkit-transition-duration: 280ms;
+        -webkit-transform: translate3d(90px, -52px, 0);
+        transform: translate3d(90px, -52px, 0);
+      }
+      
+      .menu-open:checked ~ .menu-item:nth-child(5) {
+        transition-duration: 380ms;
+        -webkit-transition-duration: 380ms;
+        -webkit-transform: translate3d(-90px, -52px, 0);
+        transform: translate3d(-90px, -52px, 0);
+      }
 }
 
 
@@ -588,7 +650,7 @@ html {
 @media (min-width: 1200px) {
     body {
         font-size: 1em; /* 1.5x default size */
-        height: 1000px;
+        height: 1024px;
     }
     .btn-primary{
         font-size: 1.5em;
@@ -610,5 +672,9 @@ html {
     .btn-primary.btn-primary#buyPlaylist p{
         font-size:1em;
         margin-top: 10px;
+    }
+    .footer {
+        /* Set the fixed height of the footer here */
+        height: 120px;
     }
 }

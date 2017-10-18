@@ -87,6 +87,19 @@ iframe{
     box-shadow: 10px 10px 20px 0 rgba(255, 255, 255, 0.466),-10px -10px 20px 0 rgba(255, 255, 255, 0.466);
 }
 
+/* ==============================================
+   Header
+   ============================================== */
+.header{
+    background-color: #3000556c;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height:50px;
+    font-size: 2em;
+    text-align: center;
+    color: #D6005B;
+}
 
 /* ==============================================
 bootstrap components
@@ -195,6 +208,255 @@ body.modal-open .blur-container{
     background-color: rgba(29, 133, 156, 0.493)
 }
 
+/* ==============================================
+   Footer
+   ============================================== */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+  .footer {
+    background-image: url('../images/footer.svg') ;
+    background-repeat: no-repeat;
+    background-size:100%; 
+    position: fixed;
+    z-index:999;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  .container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+
+/* ==============================================
+   Social media menu
+   ============================================== */
+
+  a { color: inherit; }
+  
+  .menu-item, .menu-open-button {
+    background: #D6005B;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px;
+    position: absolute;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 80px;
+    font-size: 0.5em;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform ease-out 200ms;
+    transition: -webkit-transform ease-out 200ms;
+    transition: transform ease-out 200ms;
+    transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
+  }
+  
+  .menu-open { display: none; }
+  
+
+  
+  .menu-open:checked + .menu-open-button .line-1 {
+    -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+    transform: translate3d(0, 0, 0) rotate(45deg);
+  }
+  
+  .menu-open:checked + .menu-open-button .line-2 {
+    -webkit-transform: translate3d(0, 0, 0) scale(0.1, 1);
+    transform: translate3d(0, 0, 0) scale(0.1, 1);
+  }
+  
+  .menu-open:checked + .menu-open-button .line-3 {
+    -webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
+    transform: translate3d(0, 0, 0) rotate(-45deg);
+  }
+  
+  .menu {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 26px;
+  }
+  
+  .menu-item:hover {
+    background: #EEEEEE;
+    color: #3290B1;
+  }
+  
+  .menu-item:nth-child(3) {
+    -webkit-transition-duration: 180ms;
+    transition-duration: 180ms;
+  }
+  
+  .menu-item:nth-child(4) {
+    -webkit-transition-duration: 180ms;
+    transition-duration: 180ms;
+  }
+  
+  .menu-item:nth-child(5) {
+    -webkit-transition-duration: 180ms;
+    transition-duration: 180ms;
+  }
+  
+  .menu-open-button {
+    z-index: 2;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+    -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  }
+  
+  .menu-open-button:hover {
+    -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+  }
+  
+  .menu-open:checked + .menu-open-button {
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+    transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+  }
+  
+  .menu-open:checked ~ .menu-item {
+    -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+    transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+  }
+  
+  .menu-open:checked ~ .menu-item:nth-child(3) {
+    transition-duration: 180ms;
+    -webkit-transition-duration: 180ms;
+    -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
+    transform: translate3d(0.08361px, -104.99997px, 0);
+  }
+  
+  .menu-open:checked ~ .menu-item:nth-child(4) {
+    transition-duration: 280ms;
+    -webkit-transition-duration: 280ms;
+    -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
+    transform: translate3d(90.9466px, -52.47586px, 0);
+  }
+  
+  .menu-open:checked ~ .menu-item:nth-child(5) {
+    transition-duration: 380ms;
+    -webkit-transition-duration: 380ms;
+    -webkit-transform: translate3d(-91.03006px, -52.33095px, 0);
+    transform: translate3d(-91.03006px, -52.33095px, 0);
+  }
+  
+  .menu-open:checked ~ .menu-item:nth-child(6) {
+    transition-duration: 480ms;
+    -webkit-transition-duration: 480ms;
+    -webkit-transform: translate3d(0.08361px, 104.99997px, 0);
+    transform: translate3d(0.08361px, 104.99997px, 0);
+  }
+  
+  
+  .item-1 {
+    border:solid 1px #3290B1;
+    background-image: url('../images/iconmonstr-facebook-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+
+  }
+  
+  .item-1:hover {
+    background-color: #3290B1;
+    background-image: url('../images/iconmonstr-facebook-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    text-shadow: none;
+    fill: greenyellow;
+
+  }
+  
+  .item-2 {
+    border:solid 1px #3290B1;
+    background-image: url('../images/iconmonstr-twitter-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .item-2:hover {
+    background-color: #3290B1;
+    background-image: url('../images/iconmonstr-twitter-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    text-shadow: none;
+  }
+  
+  .item-3 {
+    border:solid 1px #3290B1;
+    background-image: url('../images/iconmonstr-instagram-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+  }
+  
+  .item-3:hover {
+    background-color: #3290B1;
+    background-image: url('../images/iconmonstr-instagram-1.svg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 70%;
+    text-shadow: none;
+  }
+  
+  .citem-3it {
+    margin: 24px 20px 120px 0;
+    text-align: right;
+    color: #EEEEEE;
+  }
+  
+  .citem-3it a {
+    padding: 8px 0;
+    color: #C49CDE;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .citem-3it a:hover { text-decoration: underline; }
 
 /* MEDIA QUERIES
 *********************************************/

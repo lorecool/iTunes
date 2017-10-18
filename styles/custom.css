@@ -87,15 +87,18 @@ iframe{
     box-shadow: 10px 10px 20px 0 rgba(255, 255, 255, 0.466),-10px -10px 20px 0 rgba(255, 255, 255, 0.466);
 }
 
+
 /* ==============================================
    Header
    ============================================== */
 .header{
     background-color: #3000556c;
     position: fixed;
+    z-index:998;
+    top: 0;
     width: 100%;
-    z-index: 999;
-    height:30px;
+    /* Set the fixed height of the footer here */
+    height: 25px;
     text-align: center;
 
 }
@@ -105,6 +108,7 @@ iframe{
     color: #D6005B;
     text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
 }
+
 /* ==============================================
 bootstrap components
 ============================================== */
@@ -189,6 +193,7 @@ body.modal-open .blur-container{
     -ms-filter: blur(4px);
     filter: blur(4px);
 }
+
 /* ==============================================
    Buttons
    ============================================== */
@@ -216,13 +221,6 @@ body.modal-open .blur-container{
    Footer
    ============================================== */
 
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-    position: relative;
-    min-height: 100%;
-  }
-
   .footer {
     background-image: url('../images/footer.svg') ;
     background-repeat: no-repeat;
@@ -234,13 +232,6 @@ html {
     /* Set the fixed height of the footer here */
     height: 25px;
   }
-  
-  
-  /* Custom page CSS
-  -------------------------------------------------- */
-  /* Not required for template or sticky footer method. */
-  
-
 
 /* ==============================================
    Social media menu

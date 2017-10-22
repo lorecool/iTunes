@@ -16,8 +16,8 @@ function CreateListButton(songtitle,ytSrc){
 };
 
 document.getElementById("Tourist-leMC").onclick = function() {
+        changeVideo('C4icVAL7OM4');
         if(CURRENTLIST=="none"){
-            changeVideo('C4icVAL7OM4');
             CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('C4icVAL7OM4');");
             CreateListButton('Bilan' + '\t'  + '3:40',"changeVideo('a1rFcTyAwoE');");
             CreateListButton('Verhalen van de wijk' + '\t'  + '4:37',"changeVideo('RDzcGEVvGL9zo');");
@@ -36,8 +36,7 @@ document.getElementById("Tourist-leMC").onclick = function() {
             var myNode = document.getElementById("albumlist");
             while (myNode.firstChild) {
                 myNode.removeChild(myNode.firstChild);
-            }
-            changeVideo('C4icVAL7OM4');
+            };
             CreateListButton('En Route' + '\t'  + '3:43',"changeVideo('C4icVAL7OM4');");
             CreateListButton('Bilan' + '\t'  + '3:40',"changeVideo('a1rFcTyAwoE');");
             CreateListButton('Verhalen van de wijk' + '\t'  + '4:37',"changeVideo('RDzcGEVvGL9zo');");
@@ -57,8 +56,8 @@ document.getElementById("Tourist-leMC").onclick = function() {
 };
 
 document.getElementById("EdSheeran").onclick = function() {
-    if(CURRENTLIST=="none"){
     changeVideo('OjGrcJ4lZCc');
+    if(CURRENTLIST=="none"){
     CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('OjGrcJ4lZCc');");
     CreateListButton('Castle on the hill' + '\t'  + '4:21',"changeVideo('K0ibBPhiaG0');");
     CreateListButton('Dive' + '\t'  + '3:58',"changeVideo('Wv2rLZmbPMA');");
@@ -81,8 +80,7 @@ document.getElementById("EdSheeran").onclick = function() {
         var myNode = document.getElementById("albumlist");
         while (myNode.firstChild) {
             myNode.removeChild(myNode.firstChild);
-        }
-        changeVideo('OjGrcJ4lZCc');        
+        };       
         CreateListButton('Eraser' + '\t'  + '3:48',"changeVideo('OjGrcJ4lZCc');");
         CreateListButton('Castle on the hill' + '\t'  + '4:21',"changeVideo('K0ibBPhiaG0');");
         CreateListButton('Dive' + '\t'  + '3:58',"changeVideo('Wv2rLZmbPMA');");
@@ -107,8 +105,8 @@ document.getElementById("EdSheeran").onclick = function() {
 };
 
 document.getElementById("Bazart").onclick = function() {
-    if(CURRENTLIST=="none"){
     changeVideo('42WoxJbRfVk');
+    if(CURRENTLIST=="none"){
     CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('42WoxJbRfVk');");
     CreateListButton('Chaos' + '\t'  + '3:19',"changeVideo('HdI_R7vbL-o');");
     CreateListButton('Tunnels' + '\t'  + '3:11',"changeVideo('L5-31_F3O1A');");
@@ -125,8 +123,7 @@ document.getElementById("Bazart").onclick = function() {
         var myNode = document.getElementById("albumlist");
         while (myNode.firstChild) {
             myNode.removeChild(myNode.firstChild);
-        }
-        changeVideo('42WoxJbRfVk');
+        };
         CreateListButton('Echo' + '\t'  + '3:28',"changeVideo('42WoxJbRfVk');");
         CreateListButton('Chaos' + '\t'  + '3:19',"changeVideo('HdI_R7vbL-o');");
         CreateListButton('Tunnels' + '\t'  + '3:11',"changeVideo('L5-31_F3O1A');");
@@ -156,3 +153,7 @@ function changeVideo(videoId) {
     var ytString = "https://www.youtube.com/embed/" + videoId;
     document.getElementById('videoPlayer').src = ytString;
 }
+
+$('.close').click(function () {
+    document.getElementById('videoPlayer').src='';
+});
